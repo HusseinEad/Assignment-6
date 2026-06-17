@@ -252,6 +252,7 @@ p {
 .cart {
   position: relative;
   overflow: hidden;
+  aspect-ratio: 1/1;
 }
 .cart::after {
   content: "";
@@ -415,21 +416,7 @@ select {
   height: 40px;
 }
 
-/* .anmi{
-  transform: translateX(-50%);
-  animation: anmi 10s linear infinite   ;
-  width: max-content;
 
- }
-@keyframes anmi {
-
-      from{   transform:translateX(100%);
-    }
-
-    to{
-        transform:translateX(-100%);
-    }
-} */
 
 .slider-anmi {
   width: 100%;
