@@ -1,0 +1,873 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Days+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles/all.min.css" />
+    <link rel="stylesheet" href="styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#scroll-by">
+    <nav id="scroll-by" class="navbar navbar-expand-lg bg-dark position-sticky top-0 py-3">
+      <div class="container petch">
+        <i class="fa fa-gamepad fa-xl me-2 text-lemon rounded"></i>
+
+        <a class="text-decoration-none fs-5 fw-bold text-lemon pe-3"
+          >GameArena</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars text-white"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#our-latest"> OUR GAMES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#interactive">What We Do </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#our-team"> Our Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <button class="btn btn-lemonn petch" type="submit">Sign In</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <header class="home vh-100 py-5" id="home">
+      <div class="container">
+        <div class="row align-items-center justify-content-center mt-5">
+          <div class="col-md-6 col-sm-12">
+            <div class="inner-header text-white">
+              <h1 class="fs-60">
+                THE ULTIMATE <span class="text-lemon">GAMING</span> EXPERIENCE
+              </h1>
+              <p class="petch pb-3">
+                Join millions of gamers worldwide in the most competitive
+                eSports tournaments. Experience next-level gaming with
+                cutting-edge technology and endless possibilities.
+              </p>
+
+              <button type="button" class="btn btn-lemon petch">
+                Start GAMING Now
+              </button>
+              <button type="button" class="btn btn-outline-lemon petch">
+                Watch Tournaments
+              </button>
+            </div>
+          </div>
+          <div class="col-md-5 col-sm-12">
+            <div class="inner-head-img w-100 rounded mt-3">
+              <img src="./images/hero-img.png" class="w-100 rounded" alt="" />
+              <div class="act d-flex align-items-center justify-content-center">
+                <i class="fa fa-trophy text-center fa-xl text-lemon m-1"></i>
+                <div class="">
+                  <p class="fs-12 fw-lighter petch pb-0">Active Players</p>
+                  <h5 class="fs-5">2.5M+</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="our-latest py-5" id="our-latest">
+      <div class="container">
+        <div class="head-section">
+          <span class="text-center petch fw-bolder text-lemon">OUR GAMES </span>
+        </div>
+        <h2 class="text-center fs-48 fw-bold my-5">Our Latest Games</h2>
+
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner text-center">
+            <div class="carousel-item active "
+            >
+            <div class="d-flex gap-3 align-items-center justify-content-center">
+
+              <div class="item-img item-img-1 w-33 rounded-3">
+                <img
+                  src="images/latest-games-1.png"
+                  class="rounded-3 w-100 img-1"
+                  alt="..."
+                />
+                <div class="span-top px-2">
+                  <span class="petch fs-12 mx-2 adv rounded-pill"
+                    >ADVENTURE</span
+                  >
+                  <span class="petch fs-12 mult">MULTIPLAYER</span>
+                </div>
+                <div
+                  class="layer-img d-flex flex-column justify-content-between rounded"
+                >
+                  <div class="span-bottom px-3">
+                    <h5 class="petch text-dark fw-bolder">Alien Companions</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="item-img item-img-2 w-33 rounded-3">
+                <img
+                  src="images/latest-games-2.png"
+                  class="rounded-3 w-100 img-1"
+                  alt="..."
+                />
+                <div class="span-top px-2">
+                  <span class="petch fs-12 mx-2 adv rounded-pill"
+                    >ADVENTURE</span
+                  >
+                  <span class="petch fs-12 mult">MULTIPLAYER</span>
+                </div>
+                <div
+                  class="layer-img d-flex flex-column justify-content-between rounded"
+                >
+                  <div class="span-bottom px-3">
+                    <h5 class="petch text-dark fw-bolder">Alien Companions</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="item-img item-img-3 w-33 rounded-3">
+                <img
+                  src="images/latest-games-3.png"
+                  class="rounded-3 w-100 img-1"
+                  alt="..."
+                />
+                <div class="span-top px-2">
+                  <span class="petch fs-12 mx-2 adv rounded-pill"
+                    >ADVENTURE</span
+                  >
+                  <span class="petch fs-12 mult">MULTIPLAYER</span>
+                </div>
+                <div
+                  class="layer-img d-flex flex-column justify-content-between rounded"
+                >
+                  <div class="span-bottom px-3">
+                    <h5 class="petch text-dark fw-bolder">Alien Companions</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        
+            </div>
+            <div class="carousel-item"
+            >
+            <div class="d-flex gap-3 align-items-center justify-content-center">
+
+              <div class="item-img item-img-1 w-33 rounded-3">
+                <img
+                  src="images/latest-games-4.png"
+                  class="rounded-3 w-100 img-1"
+                  alt="..."
+                />
+                <div class="span-top px-2">
+                  <span class="petch fs-12 mx-2 adv rounded-pill"
+                    >ADVENTURE</span
+                  >
+                  <span class="petch fs-12 mult">MULTIPLAYER</span>
+                </div>
+                <div
+                  class="layer-img d-flex flex-column justify-content-between rounded"
+                >
+                  <div class="span-bottom px-3">
+                    <h5 class="petch text-dark fw-bolder">Alien Companions</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="item-img item-img-2 w-33 rounded-3">
+                <img
+                  src="images/latest-games-5.png"
+                  class="rounded-3 w-100 img-1"
+                  alt="..."
+                />
+                <div class="span-top px-2">
+                  <span class="petch fs-12 mx-2 adv rounded-pill"
+                    >ADVENTURE</span
+                  >
+                  <span class="petch fs-12 mult">MULTIPLAYER</span>
+                </div>
+                <div
+                  class="layer-img d-flex flex-column justify-content-between rounded"
+                >
+                  <div class="span-bottom px-3">
+                    <h5 class="petch text-dark fw-bolder">Alien Companions</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="item-img item-img-3 w-33 rounded-3">
+                <img
+                  src="images/latest-games-6.png"
+                  class="rounded-3 w-100 img-1"
+                  alt="..."
+                />
+                <div class="span-top px-2">
+                  <span class="petch fs-12 mx-2 adv rounded-pill"
+                    >ADVENTURE</span
+                  >
+                  <span class="petch fs-12 mult">MULTIPLAYER</span>
+                </div>
+                <div
+                  class="layer-img d-flex flex-column justify-content-between rounded"
+                >
+                  <div class="span-bottom px-3">
+                    <h5 class="petch text-dark fw-bolder">Alien Companions</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        
+            </div>
+            <div class="carousel-item "
+            >
+            <div class=" d-flex gap-3 align-items-center justify-content-center">
+
+              <div class="item-img item-img-1 w-33 rounded-3">
+                <img
+                  src="images/latest-games-7.png"
+                  class="rounded-3 w-100 img-1"
+                  alt="..."
+                />
+                <div class="span-top px-2">
+                  <span class="petch fs-12 mx-2 adv rounded-pill"
+                    >ADVENTURE</span
+                  >
+                  <span class="petch fs-12 mult">MULTIPLAYER</span>
+                </div>
+                <div
+                  class="layer-img d-flex flex-column justify-content-between rounded"
+                >
+                  <div class="span-bottom px-3">
+                    <h5 class="petch text-dark fw-bolder">Alien Companions</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="item-img item-img-2 w-33 rounded-3">
+                <img
+                  src="images/latest-games-8.png"
+                  class="rounded-3 w-100 img-1"
+                  alt="..."
+                />
+                <div class="span-top px-2">
+                  <span class="petch fs-12 mx-2 adv rounded-pill"
+                    >ADVENTURE</span
+                  >
+                  <span class="petch fs-12 mult">MULTIPLAYER</span>
+                </div>
+                <div
+                  class="layer-img d-flex flex-column justify-content-between rounded"
+                >
+                  <div class="span-bottom px-3">
+                    <h5 class="petch text-dark fw-bolder">Alien Companions</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="item-img item-img-3 w-33 rounded-3">
+                <img
+                  src="images/latest-games-9.png"
+                  class="rounded-3 w-100 img-1"
+                  alt="..."
+                />
+                <div class="span-top px-2">
+                  <span class="petch fs-12 mx-2 adv rounded-pill"
+                    >ADVENTURE</span
+                  >
+                  <span class="petch fs-12 mult">MULTIPLAYER</span>
+                </div>
+                <div
+                  class="layer-img d-flex flex-column justify-content-between rounded"
+                >
+                  <div class="span-bottom px-3">
+                    <h5 class="petch text-dark fw-bolder">Alien Companions</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        
+            </div>
+          
+          </div>
+          <div class="d-flex justify-content-center mt-4">
+            <button
+              class="carousel-control-prev m-2"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next m-2"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            <button type="button" class="btn btn-outline-lemon petch">
+              VIEW ALL GAMES
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="interactive py-5" id="interactive">
+      <div class="head-section mt-5">
+        <span class="text-center petch fw-bolder text-lemon">WHAT WE DO</span>
+      </div>
+      <h2 class="text-center fs-48 fw-bold mt-4">More Than Just Games</h2>
+      <h3 class="text-center fs-48">
+        We Build <span class="petch text-lemon">Interactive</span> Journeys
+      </h3>
+
+      <div class="container">
+        <div
+          class="row container-fluid align-items-center justify-content-center"
+        >
+          <div class="col-md-3 col-sm-6 my-3 align-self-stretch">
+            <div
+              class="cart py-5 border border-secondary-subtle rounded text-center bg-dark h-100 d-flex flex-column justify-content-center align-items-center"
+            >
+              <span class="bg-grayy text-center fa-2xl text-lemon rounded p-4">
+                <i class="fa fa-desktop"></i>
+              </span>
+              <h4 class="py-3">PC Game Development</h4>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 align-self-stretch my-3">
+            <div
+              class="cart py-5 border border-secondary-subtle rounded text-center bg-dark h-100 d-flex flex-column justify-content-center align-items-center"
+            >
+              <span class="bg-grayy text-center fa-2xl text-lemon rounded p-4">
+                <i class="fa fa-mobile-screen-button"></i>
+              </span>
+              <h4 class="py-3">Mobile Game Development</h4>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 my-3">
+            <div
+              class="cartt border border-secondary-subtle rounded text-center bg-dark"
+            >
+              <img
+                src="images/what-we-do-1.png"
+                class="w-100 rounded-3"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 align-self-stretch my-3">
+            <div
+              class="cart py-5 border border-secondary-subtle rounded text-center bg-dark h-100 d-flex flex-column justify-content-center align-items-center"
+            >
+              <span class="bg-grayy text-center fa-2xl text-lemon rounded p-4">
+                <i class="fa fa-vr-cardboard"></i>
+              </span>
+              <h4 class="py-3">AR / VR Design</h4>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 align-self-stretch my-3">
+            <div
+              class="cart py-5 border border-secondary-subtle rounded text-center bg-dark h-100 d-flex flex-column justify-content-center align-items-center"
+            >
+              <span class="bg-grayy text-center fa-2xl text-lemon rounded p-4">
+                <i class="fa fa-cubes"></i>
+              </span>
+              <h4 class="py-3">AR / VR Design</h4>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 my-3">
+            <div class="cartt border border-secondary-subtle rounded">
+              <img
+                src="images/what-we-do-2.png"
+                class="w-100 rounded-3"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 align-self-stretch my-3">
+            <div
+              class="cart py-5 border border-secondary-subtle rounded text-center bg-dark h-100 d-flex flex-column justify-content-center align-items-center"
+            >
+              <span class="bg-grayy text-center fa-2xl text-lemon rounded p-4">
+                <i class="fa-brands fa-playstation"></i>
+              </span>
+              <h4 class="py-3">PS4 Game Development</h4>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 align-self-stretch my-3">
+            <div
+              class="cart py-5 border border-secondary-subtle rounded text-center bg-dark h-100 d-flex flex-column justify-content-center align-items-center"
+            >
+              <span class="bg-grayy text-center fa-2xl text-lemon rounded p-4">
+                <i class="fa fa-cube"></i>
+              </span>
+              <h4 class="py-3">PS4 Game Development</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="anmi py-5 my-5">
+        <div class="container-fluid my-4">
+          <div class="slider-anmi">
+            <div class="slide-track-left d-flex">
+              <img src="images/logo-1.jpg" alt="" />
+              <img src="images/logo-2.jpg" alt="" />
+              <img src="images/logo-3.jpg" alt="" />
+              <img src="images/logo-4.jpg" alt="" />
+              <img src="images/logo-5.jpg" alt="" />
+              <img src="images/logo-6.jpg" alt="" />
+              <img src="images/logo-7.jpg" alt="" />
+              <img src="images/logo-8.jpg" alt="" />
+              <img src="images/logo-9.jpg" alt="" />
+              <img src="images/logo-10.jpg" alt="" />
+              <img src="images/logo-11.jpg" alt="" />
+              <img src="images/logo-12.jpg" alt="" />
+              <img src="images/logo-1.jpg" alt="" />
+              <img src="images/logo-2.jpg" alt="" />
+              <img src="images/logo-3.jpg" alt="" />
+              <img src="images/logo-4.jpg" alt="" />
+              <img src="images/logo-5.jpg" alt="" />
+              <img src="images/logo-6.jpg" alt="" />
+              <img src="images/logo-7.jpg" alt="" />
+              <img src="images/logo-8.jpg" alt="" />
+              <img src="images/logo-9.jpg" alt="" />
+              <img src="images/logo-10.jpg" alt="" />
+              <img src="images/logo-11.jpg" alt="" />
+              <img src="images/logo-12.jpg" alt="" />
+            </div>
+          </div>
+          <div class="slider-anmi">
+            <div class="slide-track-right d-flex my-4">
+              <img src="images/logo-1.jpg" alt="" />
+              <img src="images/logo-2.jpg" alt="" />
+              <img src="images/logo-3.jpg" alt="" />
+              <img src="images/logo-4.jpg" alt="" />
+              <img src="images/logo-5.jpg" alt="" />
+              <img src="images/logo-6.jpg" alt="" />
+              <img src="images/logo-7.jpg" alt="" />
+              <img src="images/logo-8.jpg" alt="" />
+              <img src="images/logo-9.jpg" alt="" />
+              <img src="images/logo-10.jpg" alt="" />
+              <img src="images/logo-11.jpg" alt="" />
+              <img src="images/logo-12.jpg" alt="" />
+              <img src="images/logo-1.jpg" alt="" />
+              <img src="images/logo-2.jpg" alt="" />
+              <img src="images/logo-3.jpg" alt="" />
+              <img src="images/logo-4.jpg" alt="" />
+              <img src="images/logo-5.jpg" alt="" />
+              <img src="images/logo-6.jpg" alt="" />
+              <img src="images/logo-7.jpg" alt="" />
+              <img src="images/logo-8.jpg" alt="" />
+              <img src="images/logo-9.jpg" alt="" />
+              <img src="images/logo-10.jpg" alt="" />
+              <img src="images/logo-11.jpg" alt="" />
+              <img src="images/logo-12.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="our-team py-5" id="our-team">
+      <div class="head-section">
+        <span class="text-center petch fw-bolder text-lemon">OUR TEAM </span>
+      </div>
+      <h2 class="text-center fs-48 fw-bold mt-4">Our Best Team Members</h2>
+      <p class="text-center fs-5 text-white-50 petch">
+        Meet the professional gamers and experts behind our success
+      </p>
+
+      <div class="container">
+        <div class="container">
+          <div class="row">
+            <div class="team col-md-3 col-sm-6 my-3">
+              <div class="profile-img">
+                <img src="images/avatar-1.png" class="w-100 rounded-4" alt="" />
+              </div>
+              <div class="prof">
+                <h3 class="fs-5">
+                  Alex "Phantom" <br />
+                  Chen
+                </h3>
+                <p class="text-lemon">Pro Player - VALORANT</p>
+                <p class="fw-regular">World Champion 2023</p>
+              </div>
+              <span class="text-lemon">PHANTOM</span>
+              <div class="layer rounded-4"></div>
+            </div>
+            <div class="team col-md-3 col-sm-6 my-3">
+              <img src="images/avatar-2.png" class="w-100 rounded-3" alt="" />
+
+              <div class="prof">
+                <h3 class="fs-5">Ali "Nova" Ahmed</h3>
+                <p class="text-lemon">Pro Player - League of Legends</p>
+                <p class="">MVP 2023 Season</p>
+              </div>
+              <span class="text-lemon">NOVA</span>
+              <div class="layer rounded-4"></div>
+            </div>
+            <div class="team col-md-3 col-sm-6 my-3">
+              <img src="images/avatar-3.png" class="w-100 rounded-3" alt="" />
+
+              <div class="prof">
+                <h3 class="fs-5">
+                  Marcus "Viper" <br />
+                  Rodriguez
+                </h3>
+                <p class="text-lemon">Head Coach - CS:GO</p>
+                <p class="fw-regular">5x Major Winner</p>
+              </div>
+              <span class="text-lemon">VIPER</span>
+              <div class="layer rounded-4"></div>
+            </div>
+            <div class="team col-md-3 col-sm-6 my-3">
+              <img src="images/avatar-4.png" class="w-100 rounded-3" alt="" />
+
+              <div class="prof">
+                <h3 class="fs-5">Seif "Saga" Usama</h3>
+                <p class="text-lemon">Strategic Analyst</p>
+                <p class="fw-regular">Data Science Exper</p>
+              </div>
+              <span class="text-lemon">SAGA</span>
+              <div class="layer rounded-4"></div>
+            </div>
+            <div class="team col-md-3 col-sm-6 my-3">
+              <img src="images/avatar-5.png" class="w-100 rounded-3" alt="" />
+
+              <div class="prof">
+                <h3 class="fs-5">
+                  Jake "Storm" <br />
+                  Wilson
+                </h3>
+                <p class="text-lemon">Pro Player - Apex Legends</p>
+                <p class="fw-regular">Rising Star 2023</p>
+              </div>
+              <span class="text-lemon">STORM</span>
+              <div class="layer rounded-4"></div>
+            </div>
+            <div class="team col-md-3 col-sm-6 my-3">
+              <img src="images/avatar-6.png" class="w-100 rounded-3" alt="" />
+
+              <div class="prof">
+                <h3 class="fs-5">David "Titan" Park</h3>
+                <p class="text-lemon">Team Captain - Dota 2</p>
+                <p class="fw-regular">The International Winner</p>
+              </div>
+              <span class="text-lemon">TITAN</span>
+              <div class="layer rounded-4"></div>
+            </div>
+            <div class="team col-md-3 col-sm-6 my-3">
+              <img src="images/avatar-7.png" class="w-100 rounded-3" alt="" />
+
+              <div class="prof">
+                <h3 class="fs-5">
+                  Khaled "Phoenix" <br />
+                  Ali
+                </h3>
+                <p class="text-lemon">Content Creator</p>
+                <p class="fw-regular">2M+ Followers</p>
+              </div>
+              <span class="text-lemon">PHOENIX</span>
+              <div class="layer rounded-4"></div>
+            </div>
+            <div class="team col-md-3 col-sm-6 my-3">
+              <img src="images/avatar-8.png" class="w-100 rounded-3" alt="" />
+
+              <div class="prof">
+                <h3 class="fs-5">
+                  Ryan "Ghost" <br />
+                  Miller
+                </h3>
+                <p class="text-lemon">Team Manager</p>
+                <p class="fw-regular">Operations Lead</p>
+              </div>
+              <span class="text-lemon">GHOST</span>
+              <div class="layer rounded-4"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-us py-5">
+      <div class="container">
+        <div class="head-section">
+          <span class="text-center petch fw-bolder text-lemon">Contact US</span>
+        </div>
+        <h2 class="text-center fs-48 fw-bold mt-4">Get In Touch</h2>
+        <p class="text-center fs-5 text-white-50 petch">
+          Have questions or need support? We're here to help!
+        </p>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="location my-3 d-flex bg-gray rounded p-4">
+              <span
+                class="icon d-flex justify-content-center align-items-center fa-xl bg-lemon rounded-circle"
+              >
+                <i
+                  class="fa-solid fa-location-dot text-dark fs-3 fa-inverse"
+                ></i>
+              </span>
+              <div class="mx-3">
+                <h3 class="fs-5">Our Location</h3>
+                <p class="petch">123 Gaming Street, Esports City, EC 12345</p>
+              </div>
+            </div>
+            <div class="Phone my-3 d-flex bg-gray rounded p-4">
+              <span
+                class="icon d-flex justify-content-center align-items-center fa-xl bg-lemon rounded-circle"
+              >
+                <i class="fa-solid fa-phone text-dark fs-3 fa-inverse"></i>
+              </span>
+              <div class="mx-3">
+                <h3 class="fs-5">Phone Number</h3>
+                <p class="petch">+1 (555) 123-4567</p>
+              </div>
+            </div>
+            <div class="Email my-3 d-flex bg-gray rounded p-4">
+              <span
+                class="icon d-flex justify-content-center align-items-center fa-xl bg-lemon rounded-circle"
+              >
+                <i class="fa-solid fa-envelope text-dark fs-3 fa-inverse"></i>
+              </span>
+              <div class="mx-3">
+                <h3 class="fs-5">Email Address</h3>
+                <p class="petch">contact@gamearena.com</p>
+              </div>
+            </div>
+            <div class="join my-3 rounded p-4">
+              <div class="mx-3">
+                <h3 class="fs-4 text-dark">Join Our Community</h3>
+                <p class="petch my-3 text-dark">
+                  Connect with us on social media for the latest updates
+                </p>
+              </div>
+              <div class="d-flex icons gap-2">
+                <span
+                  class="icon d-flex justify-content-center align-items-center fa-xl bg-dark rounded-circle"
+                >
+                  <i
+                    class="fa-brands fa-discord text-lemon fs-5 fa-inverse"
+                  ></i>
+                </span>
+                <span
+                  class="icon d-flex justify-content-center align-items-center fa-xl bg-dark rounded-circle"
+                >
+                  <i
+                    class="fa-brands fa-x-twitter text-lemon fs-5 fa-inverse"
+                  ></i>
+                </span>
+                <span
+                  class="icon d-flex justify-content-center align-items-center fa-xl bg-dark rounded-circle"
+                >
+                  <i
+                    class="fa-brands fa-instagram text-lemon fs-5 fa-inverse"
+                  ></i>
+                </span>
+                <span
+                  class="icon d-flex justify-content-center align-items-center fa-xl bg-dark rounded-circle"
+                >
+                  <i
+                    class="fa-brands fa-youtube text-lemon fs-5 fa-inverse"
+                  ></i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="message bg-gray my-3 rounded-3 p-4">
+              <h3>Send us a Message</h3>
+              <form action="">
+                <div class="d-flex my-3">
+                  <div class="">
+                    <label for="fname" class="petch">First Name</label>
+                    <input
+                      type="text"
+                      id="fname"
+                      class="py-2 rounded-2 bg-grayy w-100"
+                    />
+                  </div>
+                  <div class="">
+                    <label for="lname" class="ms-2 petch">Last Name</label>
+                    <input
+                      type="text"
+                      id="lname"
+                      class="py-2 rounded-2 bg-grayy w-100 ms-2"
+                    />
+                  </div>
+                </div>
+                <label for="email" class="petch">Email Address</label>
+                <input
+                  type="text"
+                  id="email"
+                  class="py-2 rounded-2 bg-grayy w-100"
+                />
+
+                <label for="Subject" class="mt-3 petch">Subject</label>
+                <select
+                  name=""
+                  id="Subject"
+                  class="py-2 text-white rounded-2 bg-grayy w-100"
+                >
+                  <option value="">General Inquiry</option>
+                  <option value="">Tournament Support</option>
+                  <option value="">Technical Issue</option>
+                  <option value="">Partnership</option>
+                  <option value="">Media Request</option>
+                </select>
+                <label for="message" class="mt-3 petch">Message</label>
+                <textarea
+                  name=""
+                  id="message"
+                  class="py-2 text-white rounded-2 bg-grayy w-100"
+                ></textarea>
+
+                <input type="checkbox" id="Subscribe " class="mt-3" />
+                <label for="Subscribe " class="petch">
+                  Subscribe to our newsletter for gaming updates</label
+                >
+                <button class="btn btn-lemon w-100 py-3 my-3 petch">
+                  Send Message <i class="fa fa-paper-plane"></i>
+                </button>
+              </form>
+
+              <div
+                class="d-flex justify-content-around text-center border-top mt-4"
+              >
+                <div class="mt-3">
+                  <h5 class="text-lemon">24/7</h5>
+                  <p class="petch">Support Available</p>
+                </div>
+                <div class="mt-3">
+                  <h5 class="text-lemon">24/7</h5>
+                  <p class="petch">Average Response</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="foot bg-black py-5" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <i class="fa fa-gamepad fa-xl me-2 text-lemon rounded"></i>
+            <a
+              class="fw-bold fs-5 text-lemon petch text-decoration-none"
+              href="#"
+              >GameArena</a
+            >
+            <p class="petch text-secondary">
+              The ultimate destination for competitive gaming, esports
+              tournaments, and gaming community.
+            </p>
+            <div class="icons">
+              <i class="fa-brands fa-x-twitter fs-4 text-secondary"></i>
+              <i class="fa-brands fa-facebook fs-4 text-secondary"></i>
+              <i class="fa-brands fa-instagram fs-4 text-secondary"></i>
+              <i class="fa-brands fa-youtube fs-4 text-secondary"></i>
+              <i class="fa-brands fa-twitch fs-4 text-secondary"></i>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a class="fw-bold fs-5 text-white petch text-decoration-none"
+              >Games</a
+            >
+            <ul class="">
+              <li>VALORANT</li>
+              <li>League of Legends</li>
+              <li>CS:GO</li>
+              <li>Dota 2</li>
+              <li>Apex Legends</li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a class="fw-bold fs-5 text-white text-decoration-none"
+              >Tournaments</a
+            >
+            <ul class="petch">
+              <li>Upcoming Events</li>
+              <li>Live Matches</li>
+              <li>Results</li>
+              <li>Rankings</li>
+              <li>Apex Legends</li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a class="fw-bold fs-5 text-white text-decoration-none">Games</a>
+            <ul class="petch">
+              <li>Help Center</li>
+              <li>Contact Us</li>
+              <li>Bug Reports</li>
+              <li>Feature Requests</li>
+              <li>Community Guidelines</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-between py-3 mt-3 border-top">
+          <div class="">
+            <p class="petch text-secondary">
+              © 2025 GameArena. All rights reserved
+            </p>
+          </div>
+          <div class="">
+            <a class="petch text-decoration-none text-secondary"
+              >Privacy Policy</a
+            >
+            <a class="px-2 petch text-decoration-none text-secondary"
+              >Terms of Service</a
+            >
+            <a class="petch text-decoration-none text-secondary"
+              >Cookie Policy</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
